@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+/* Hero area styles */
+#hero-area{
+    height: 100vh;
+    background-image: url('/assets/image/hero-round.png');
+    background-color:rgba(240, 236, 231, 0.199);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right bottom;
+    position: relative;
+     
+}
+
+.hero-wrapper{
+    display: flex;
+    align-items: center;
+}
+.hero-content{
+    max-width: 524px;
+    padding-top: 150px;
+}
+
+.hero-title{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+
+.hero-description{
+    padding: 20px 50px 30px 0;
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.primary-btn {
+    padding: 16px 12px;
+    background: tomato;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.primary-btn:hover{
+    background:#333;
+}
+
+.secondary-btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: #707070;
+    border: none;
+    background: transparent;
+    transition: .3s;
+}
+
+.secondary-btn i {
+    margin-right: 10px;
+}
+
+.secondary-btn:hover{
+    color:tomato;
+}
+.hero-image{
+    position: absolute;
+    bottom:0;
+    right:160px;
+}
+
+/* donate Area styles */
+#donate-area{
+    padding: 130px 0px;
+}
+
+.section-heading{
+    max-width: 690px;
+    margin:auto;
+    text-align: center;
+}
+
+.section-heading h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.1em;
+    padding-bottom: 20px;
+}
+
+.donate-area-wrapper{
+    margin-top:50px;
+}
+
