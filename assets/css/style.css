@@ -57,7 +57,7 @@ body{
 }
 .primary-btn {
     padding: 16px 12px;
-    background: tomato;
+    background: #FF5959;
     color: #fff;
     border: none;
     outline: none;
@@ -84,7 +84,7 @@ body{
 }
 
 .secondary-btn:hover{
-    color:tomato;
+    color:#FF5959;
 }
 .hero-image{
     position: absolute;
@@ -112,5 +112,50 @@ body{
 
 .donate-area-wrapper{
     margin-top:50px;
+    padding: 0px 180px;
 }
 
+.donate-amount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:22px;
+    
+}
+
+.amount-box{
+    padding: 43px 23px;
+    background: #FAFAFA;
+    border:1px solid #fafafa;
+    transition: .3s;
+    color:#707070;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.amount-box h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.amount-box:hover{
+    color:#FF5959;
+    border-color:#FF5959;
+    background: #FFEEEE;
+}
+
+.donate-form{
+   margin-top: 60px;
+}
+
+.donate-form input[type="text"]{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+
+.donate-form [type="submit"] {
+    margin: auto;
+    display: block;
+    margin-top: 46px;
+}
